@@ -15,14 +15,12 @@ class Main {
    String NameOfFile = "Decks.csv";
 
    DecksList = GetDecksFromFile(NameOfFile);
+
    displayOptions();
+
    executeOptions(DecksList);
 
-   
-   
-
-
-   
+   System.out.println("end of program");
 
   }
   public static Deck[] GetDecksFromFile(String fileName){
